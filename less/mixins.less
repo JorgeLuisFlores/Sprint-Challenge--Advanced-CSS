@@ -1,1 +1,23 @@
 // Mixins Here
+
+.h1-nav {
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+}
+
+.btns (@size, @btnsfont){
+    width: @size;
+    padding: 3%;
+    background: @btn-bg-color;
+    color: @porcelain;
+    border-radius: 5px;
+    font-size: @btnsfont;
+    text-align: center;
+    font-weight: bold;
+
+        &:hover {
+            color: @btn-bg-color;
+            background: @porcelain;
+        }
+}
