@@ -1,1 +1,29 @@
 // Navigation code here
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: @nav-bg;
+    position: fixed;
+    opacity: 0.8;
+
+        h1 {
+        .h1-nav
+        }
+
+        .nav-anchors {
+            width: 7.5%;
+            padding: 1%;
+            margin: 0%;
+            color: @nav-font;
+            font-size: 1.6rem;
+            text-align: center;
+            text-decoration: none;
+
+                    @media @phone {
+                        width: 17.5%;
+                    }
+        }
+}
